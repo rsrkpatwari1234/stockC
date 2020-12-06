@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# stockC
+A demo project that displays the stock trading details.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Requirements
 
-## Available Scripts
+- [Create React App](https://github.com/facebook/create-react-app)
+- [Node.js](https://nodejs.org/en/)
+- React
+- Firebase
 
-In the project directory, you can run:
+# Setting up the project
 
-### `npm start`
+1.After downloading node.js executable files,test the installation using
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+'''
+$node -v
+$npm -v
+'''
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2.Install react using the given command and create a new directory
 
-### `npm test`
+'''
+$sudo npm install -g create-react-app
+$create-react-app stockc
+$cd ./stockc
+'''
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3.Install the dependencies of node.js 
 
-### `npm run build`
+'''
+$npm install
+'''
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4.Install firebase
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+'''
+$npm install --save firebase
+'''
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5.Setup the firebase database and make changes in the configuration of the src/Fireebase.js file
 
-### `npm run eject`
+6.To run the project,use the following command and follow the url localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+'''
+$npm start
+'''
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Demo of the work till now :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Home page and the database with the manually added stock information (displaying only one company)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i1.png" width="400" height="400" />
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i2.png" width="400" height="400" />
 
-## Learn More
+2. Adding stock manually and clicking 'Submit'.The corresponding change is displayed on the home page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i3.png" width="400" height="400" />
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i4.png" width="400" height="400" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. The company is added automatically to the database.You can also see that the user list is currently empty
 
-### Code Splitting
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i5.png" width="400" height="400" />
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i6.png" width="400" height="400" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Sign up a new user,suppose 'example' and see the change  in the database
 
-### Analyzing the Bundle Size
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i7.png" width="400" height="400" />
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i8.png" width="400" height="400" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. To go to the corresponding watchlist,click on 'Go to my watchlist!' on the home page.A Sign In page will open as follows
 
-### Making a Progressive Web App
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i9.png" width="400" height="400" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# References 
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Tutorial](https://www.djamware.com/post/5bc50ea680aca7466989441d/reactjs-firebase-tutorial-building-firestore-crud-web-application)
+- [Git support](https://github.com/didinj/reactjs-firebase-firestore-crud)
