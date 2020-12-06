@@ -37,7 +37,7 @@ $npm install
 $npm install --save firebase
 ```
 
-5.Setup the firebase database and make changes in the configuration of the src/Fireebase.js file
+5.Setup the firebase database and make changes in the configuration of the src/Firebase.js file
 
 6.To run the project,use the following command and follow the url localhost:3000
 
@@ -50,33 +50,33 @@ $npm start
 1. Home page and the database with the manually added stock information (displaying only one company)
 
 <p float="left">
-<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i1.png" width="400" height="400" />
-<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i2.png" width="400" height="400" />
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i1.png" width="450" height="400" />
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i2.png" width="450" height="400" />
 </p>
 
 2. Adding stock manually and clicking 'Submit'.The corresponding change is displayed on the home page
 
 <p float="left">
-<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i3.png" width="400" height="400" />
-<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i4.png" width="400" height="400" />
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i3.png" width="450" height="400" />
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i4.png" width="450" height="400" />
 </p>
 
 3. The company is added automatically to the database.You can also see that the user list is currently empty
 
 <p float="left">
-<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i5.png" width="400" height="400" />
-<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i6.png" width="400" height="400" />
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i5.png" width="450" height="400" />
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i6.png" width="450" height="400" />
 </p>
 
 4. Sign up a new user,suppose 'example' and see the change  in the database
 
 <p float="left">
-<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i7.png" width="400" height="400" />
-<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i8.png" width="400" height="400" />
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i7.png" width="450" height="400" />
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i8.png" width="450" height="400" />
 </p>
 5. To go to the corresponding watchlist,click on 'Go to my watchlist!' on the home page.A Sign In page will open as follows
 
-<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i9.png" width="400" height="400" />
+<img src="https://github.com/rsrkpatwari1234/stockC/blob/main/demo_images/i9.png" width="700" height="400" />
 
 # References 
 
